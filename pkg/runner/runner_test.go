@@ -186,6 +186,7 @@ func (j *TestJobFileInfo) runTest(ctx context.Context, t *testing.T, cfg *Config
 		Inputs:                cfg.Inputs,
 		GitHubInstance:        "github.com",
 		ContainerArchitecture: cfg.ContainerArchitecture,
+		Matrix:                cfg.Matrix,
 	}
 
 	runner, err := New(runnerConfig)
@@ -293,7 +294,6 @@ func TestRunEvent(t *testing.T) {
 		{workdir, "workflow_dispatch-scalar-composite-action", "workflow_dispatch", "", platforms, secrets},
 		{workdir, "job-needs-context-contains-result", "push", "", platforms, secrets},
 		{"../model/testdata", "strategy", "push", "", platforms, secrets}, // TODO: move all testdata into pkg so we can validate it with planner and runner
-		// {"testdata", "issue-228", "push", "", platforms, }, // TODO [igni]: Remove this once everything passes
 		{"../model/testdata", "container-volumes", "push", "", platforms, secrets},
 		{workdir, "path-handling", "push", "", platforms, secrets},
 		{workdir, "do-not-leak-step-env-in-composite", "push", "", platforms, secrets},
@@ -583,4 +583,31 @@ func TestRunEventPullRequest(t *testing.T) {
 	}
 
 	tjfi.runTest(context.Background(), t, &Config{EventPath: filepath.Join(workdir, workflowPath, "event.json")})
+}
+
+func TestRunMatrixWithUserDefinedInclusions(t *testing.T) {
+	if testing.Short() {
+		t.Skip("skipping integration test")
+	}
+	workflowPath := "matrix-with-user-inclusions"
+
+	tjfi := TestJobFileInfo{
+		workdir:      workdir,
+		workflowPath: workflowPath,
+		eventName:    "push",
+		errorMessage: "",
+		platforms:    platforms,
+	}
+
+	matrix := map[string]map[string]bool{
+		"node": {
+			"8":   true,
+			"8.x": true,
+		},
+		"os": {
+			"ubuntu-18.04": true,
+		},
+	}
+
+	tjfi.runTest(context.Background(), t, &Config{Matrix: matrix})
 }
