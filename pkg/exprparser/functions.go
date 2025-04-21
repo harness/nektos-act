@@ -15,7 +15,7 @@ import (
 
 	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
 
-	"github.com/harness/nektos-act/v1/pkg/model"
+	"github.com/harness/nektos-act/pkg/model"
 	"github.com/rhysd/actionlint"
 )
 

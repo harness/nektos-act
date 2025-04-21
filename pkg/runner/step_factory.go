@@ -3,7 +3,7 @@ package runner
 import (
 	"fmt"
 
-	"github.com/harness/nektos-act/v1/pkg/model"
+	"github.com/harness/nektos-act/pkg/model"
 )
 
 type stepFactory interface {

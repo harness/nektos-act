@@ -14,8 +14,8 @@ import (
 	"testing/fstest"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/harness/nektos-act/v1/pkg/model"
-	"github.com/harness/nektos-act/v1/pkg/runner"
+	"github.com/harness/nektos-act/pkg/model"
+	"github.com/harness/nektos-act/pkg/runner"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

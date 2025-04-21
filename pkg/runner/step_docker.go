@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/kballard/go-shellquote"
-	"github.com/harness/nektos-act/v1/pkg/common"
-	"github.com/harness/nektos-act/v1/pkg/container"
-	"github.com/harness/nektos-act/v1/pkg/model"
+	"github.com/harness/nektos-act/pkg/common"
+	"github.com/harness/nektos-act/pkg/container"
+	"github.com/harness/nektos-act/pkg/model"
 )
 
 type stepDocker struct {

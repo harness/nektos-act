@@ -11,7 +11,7 @@ import (
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types"
 
-	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/pkg/common"
 )
 
 // NewDockerPullExecutor function to create a run executor for the container

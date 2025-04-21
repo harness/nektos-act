@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/harness/nektos-act/v1/pkg/common"
-	"github.com/harness/nektos-act/v1/pkg/model"
+	"github.com/harness/nektos-act/pkg/common"
+	"github.com/harness/nektos-act/pkg/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"gopkg.in/yaml.v3"

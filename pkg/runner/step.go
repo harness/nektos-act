@@ -6,10 +6,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/harness/nektos-act/v1/pkg/common"
-	"github.com/harness/nektos-act/v1/pkg/container"
-	"github.com/harness/nektos-act/v1/pkg/exprparser"
-	"github.com/harness/nektos-act/v1/pkg/model"
+	"github.com/harness/nektos-act/pkg/common"
+	"github.com/harness/nektos-act/pkg/container"
+	"github.com/harness/nektos-act/pkg/exprparser"
+	"github.com/harness/nektos-act/pkg/model"
 )
 
 type step interface {

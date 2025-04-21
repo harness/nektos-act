@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/pkg/common"
 )
 
 // NewContainerInput the input for the New function

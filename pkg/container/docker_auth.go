@@ -9,7 +9,7 @@ import (
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/credentials"
 	"github.com/docker/docker/api/types"
-	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/pkg/common"
 )
 
 func LoadDockerAuthConfig(ctx context.Context, image string) (types.AuthConfig, error) {
