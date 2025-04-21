@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
 )
 
 var commandPatternGA *regexp.Regexp

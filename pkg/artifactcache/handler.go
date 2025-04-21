@@ -20,7 +20,7 @@ import (
 	"github.com/timshannon/bolthold"
 	"go.etcd.io/bbolt"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
 )
 
 const (

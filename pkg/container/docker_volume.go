@@ -7,7 +7,7 @@ import (
 
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/api/types/volume"
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
 )
 
 func NewDockerVolumeRemoveExecutor(volumeName string, force bool) common.Executor {

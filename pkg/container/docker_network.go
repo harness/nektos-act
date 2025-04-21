@@ -6,7 +6,7 @@ import (
 	"context"
 
 	"github.com/docker/docker/api/types/network"
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
 )
 
 func NewDockerNetworkCreateExecutor(name string) common.Executor {

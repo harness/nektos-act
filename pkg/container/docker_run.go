@@ -35,8 +35,8 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/term"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/filecollector"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/filecollector"
 )
 
 // NewContainer creates a reference to a container

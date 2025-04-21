@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/nektos/act/pkg/container"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/container"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/model"
 )
 
 func TestStepRun(t *testing.T) {

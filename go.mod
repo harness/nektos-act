@@ -1,4 +1,4 @@
-module github.com/nektos/act
+module github.com/harness/nektos-act/CI-17031-test
 
 go 1.24
 

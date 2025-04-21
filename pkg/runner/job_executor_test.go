@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/container"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/container"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

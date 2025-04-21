@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/nektos/act/pkg/schema"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/schema"
 	"gopkg.in/yaml.v3"
 )
 

@@ -20,9 +20,9 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
 	"golang.org/x/term"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/filecollector"
-	"github.com/nektos/act/pkg/lookpath"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/common"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/filecollector"
+	"github.com/harness/nektos-act/CI-17031-test/pkg/lookpath"
 )
 
 type HostEnvironment struct {
