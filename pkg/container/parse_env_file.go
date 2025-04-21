@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/v1/pkg/common"
 )
 
 func parseEnvFile(e Container, srcPath string, env *map[string]string) common.Executor {

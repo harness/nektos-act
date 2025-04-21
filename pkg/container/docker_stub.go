@@ -7,7 +7,7 @@ import (
 	"runtime"
 
 	"github.com/docker/docker/api/types"
-	"github.com/nektos/act/pkg/common"
+	"github.com/harness/nektos-act/v1/pkg/common"
 	"github.com/pkg/errors"
 )
 

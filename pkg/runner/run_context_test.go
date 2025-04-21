@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nektos/act/pkg/exprparser"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/v1/pkg/exprparser"
+	"github.com/harness/nektos-act/v1/pkg/model"
 
 	log "github.com/sirupsen/logrus"
 	assert "github.com/stretchr/testify/assert"

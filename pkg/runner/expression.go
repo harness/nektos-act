@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/exprparser"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/v1/pkg/exprparser"
+	"github.com/harness/nektos-act/v1/pkg/model"
 	"gopkg.in/yaml.v3"
 )
 

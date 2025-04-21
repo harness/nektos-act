@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"gopkg.in/yaml.v3"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/common/git"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/v1/pkg/common/git"
+	"github.com/harness/nektos-act/v1/pkg/model"
 )
 
 type stepActionRemoteMocks struct {

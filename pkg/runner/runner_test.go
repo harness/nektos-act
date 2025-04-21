@@ -15,8 +15,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	assert "github.com/stretchr/testify/assert"
 
-	"github.com/nektos/act/pkg/common"
-	"github.com/nektos/act/pkg/model"
+	"github.com/harness/nektos-act/v1/pkg/common"
+	"github.com/harness/nektos-act/v1/pkg/model"
 )
 
 var (
