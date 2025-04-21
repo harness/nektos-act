@@ -1,4 +1,4 @@
-module github.com/harness/nektos-act/v1
+module github.com/harness/nektos-act
 
 go 1.18
 
