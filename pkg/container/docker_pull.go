@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 
 	"github.com/harness/nektos-act/pkg/common"
 )

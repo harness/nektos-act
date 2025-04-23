@@ -1,6 +1,6 @@
 //go:build !(WITHOUT_DOCKER || !(linux || darwin || windows))
 
-// This file is exact copy of https://github.com/docker/cli/blob/9ac8584acfd501c3f4da0e845e3a40ed15c85041/cli/command/container/opts.go
+// This file is exact copy of https://github.com/harness-community/docker-cli-v23/blob/9ac8584acfd501c3f4da0e845e3a40ed15c85041/cli/command/container/opts.go
 // appended with license information.
 //
 // docker/cli is licensed under the Apache License, Version 2.0.
@@ -23,15 +23,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/opts"
-	"github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
 	"github.com/docker/go-connections/nat"
+	"github.com/harness-community/docker-cli-v23/cli/compose/loader"
+	"github.com/harness-community/docker-cli-v23/opts"
+	"github.com/harness-community/docker-v23/api/types/container"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/strslice"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
