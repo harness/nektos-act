@@ -6,9 +6,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/credentials"
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/config/credentials"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/harness/nektos-act/pkg/common"
 )
 

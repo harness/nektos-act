@@ -4,13 +4,13 @@ go 1.18
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
+	github.com/DevanshMathur19/docker-cli-v23 v23.0.6-debug2+incompatible
+	github.com/DevanshMathur19/docker-v23 v23.0.6+incompatible
 	github.com/Masterminds/semver v1.5.0
 	github.com/adrg/xdg v0.4.0
 	github.com/andreaskoch/go-fswatch v1.0.0
 	github.com/creack/pty v1.1.18
-	github.com/docker/cli v23.0.0-rc.1+incompatible
 	github.com/docker/distribution v2.8.1+incompatible
-	github.com/docker/docker v23.0.0-rc.1+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/go-git/go-billy/v5 v5.4.1
 	github.com/go-git/go-git/v5 v5.4.2

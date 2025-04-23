@@ -6,7 +6,7 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/harness/nektos-act/pkg/common"
 	"github.com/pkg/errors"
 )

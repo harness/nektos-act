@@ -25,12 +25,12 @@ import (
 	"github.com/kballard/go-shellquote"
 	"github.com/spf13/pflag"
 
-	"github.com/docker/cli/cli/connhelper"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/DevanshMathur19/docker-cli-v23/cli/connhelper"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/api/types/mount"
+	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/DevanshMathur19/docker-v23/pkg/stdcopy"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 
 	"github.com/Masterminds/semver"

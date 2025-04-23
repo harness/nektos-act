@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/client"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )
