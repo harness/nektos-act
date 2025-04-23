@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
 	"github.com/docker/distribution/reference"
+	"github.com/harness-community/docker-v23/api/types"
 
 	"github.com/harness/nektos-act/pkg/common"
 )

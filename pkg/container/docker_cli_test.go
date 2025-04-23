@@ -1,4 +1,4 @@
-// This file is exact copy of https://github.com/DevanshMathur19/docker-cli-v23/blob/9ac8584acfd501c3f4da0e845e3a40ed15c85041/cli/command/container/opts_test.go with:
+// This file is exact copy of https://github.com/harness-community/docker-cli-v23/blob/9ac8584acfd501c3f4da0e845e3a40ed15c85041/cli/command/container/opts_test.go with:
 // * appended with license information
 // * commented out case 'invalid-mixed-network-types' in test TestParseNetworkConfig
 //
@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
 	"github.com/docker/go-connections/nat"
+	"github.com/harness-community/docker-v23/api/types/container"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"

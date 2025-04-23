@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-cli-v23/cli/config"
+	"github.com/harness-community/docker-cli-v23/cli/config"
 
 	log "github.com/sirupsen/logrus"
 	assert "github.com/stretchr/testify/assert"
