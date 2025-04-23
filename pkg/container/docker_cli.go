@@ -645,7 +645,7 @@ func parse(flags *pflag.FlagSet, copts *containerOptions, serverOS string) (*con
 		// Make sure the dns fields are never nil.
 		// New containers don't ever have those fields nil,
 		// but pre created containers can still have those nil values.
-		// See https://github.com/harness-community/docker-v23/pull/17779
+		// See https://github.com/docker/docker/pull/17779
 		// for a more detailed explanation on why we don't want that.
 		DNS:            copts.dns.GetAllOrEmpty(),
 		DNSSearch:      copts.dnsSearch.GetAllOrEmpty(),
