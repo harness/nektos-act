@@ -20,7 +20,7 @@ func (a *ActionRunsUsing) UnmarshalYAML(unmarshal func(interface{}) error) error
 	// Force input to lowercase for case insensitive comparison
 	format := ActionRunsUsing(strings.ToLower(using))
 	switch format {
-	case ActionRunsUsingNode16, ActionRunsUsingNode12, ActionRunsUsingDocker, ActionRunsUsingComposite:
+	case ActionRunsUsingNode24, ActionRunsUsingNode20, ActionRunsUsingNode16, ActionRunsUsingNode12, ActionRunsUsingDocker, ActionRunsUsingComposite:
 		*a = format
 	default:
 		return fmt.Errorf(fmt.Sprintf("The runs.using key in action.yml must be one of: %v, got %s", []string{
@@ -28,6 +28,8 @@ func (a *ActionRunsUsing) UnmarshalYAML(unmarshal func(interface{}) error) error
 			ActionRunsUsingDocker,
 			ActionRunsUsingNode12,
 			ActionRunsUsingNode16,
+			ActionRunsUsingNode20,
+			ActionRunsUsingNode24,
 		}, format))
 	}
 	return nil
@@ -36,8 +38,12 @@ func (a *ActionRunsUsing) UnmarshalYAML(unmarshal func(interface{}) error) error
 const (
 	// ActionRunsUsingNode12 for running with node12
 	ActionRunsUsingNode12 = "node12"
-	// ActionRunsUsingNode12 for running with node16
+	// ActionRunsUsingNode16 for running with node16
 	ActionRunsUsingNode16 = "node16"
+	// ActionRunsUsingNode20 for running with node20
+	ActionRunsUsingNode20 = "node20"
+	// ActionRunsUsingNode24 for running with node24
+	ActionRunsUsingNode24 = "node24"
 	// ActionRunsUsingDocker for running with docker
 	ActionRunsUsingDocker = "docker"
 	// ActionRunsUsingComposite for running composite
